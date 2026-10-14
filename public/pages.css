@@ -1,4 +1,10 @@
 /* Remaining pages and accessible Services dropdown. */
+/* Keep the charcoal artwork around photos in the full-screen gallery too. */
+#gallery{background:#050505;isolation:isolate;border-color:#666;box-shadow:0 18px 70px #000b}
+#gallery:before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:var(--paint) center/cover;filter:grayscale(1);opacity:.55}
+#gallery .viewer-head,#gallery .viewer-bottom{background:#05050550}
+#gallery .close,#gallery .previous,#gallery .next{background:#080808b8;border-color:#888}
+#gallery .close:hover,#gallery .previous:hover,#gallery .next:hover{background:#a4141a;border-color:#ee4146}
 .nav-services{position:relative}
 .nav-services-heading{display:flex;align-items:center;gap:4px}
 .services-toggle{width:26px;height:32px;background:none;color:#ddd;border:0;padding:0;font-size:23px;line-height:1}
