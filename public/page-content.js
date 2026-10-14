@@ -1,0 +1,62 @@
+// Content adapted from the original LMX pages; project photos use their original URLs.
+const servicePages = {
+  'landscaping-and-lawn': {
+    eyebrow: 'A BETTER SPACE, OUTSIDE', title: 'YOUR YARD.<br><em>OUR CARE.</em>',
+    intro: 'Landscaping and lawn care for residential and commercial properties. Keep your outdoor space clean, healthy, and ready to enjoy.',
+    heading: 'LANDSCAPING & LAWN SERVICES',
+    description: 'From routine weekly service to occasional property maintenance, we focus on dependable care and attention to detail. Mowing, edging, trimming, seasonal cleanups, and general maintenance help create a neat, welcoming outdoor space.',
+    offerings: ['Lawn mowing & edging', 'Trimming & weed control', 'Seasonal yard cleanups', 'Landscaping & new plantings', 'Mulching & flowerbeds', 'Hardscaping & property maintenance'],
+    galleryTitle: 'OUTDOOR <em>MAKEOVERS.</em>', galleryCopy: 'Browse our landscaping collection, including before-and-after views and work in progress.',
+    cta: 'GIVE YOUR YARD THE<br><em>MAKEOVER IT DESERVES.</em>', ctaCopy: 'A complete transformation, fresh plantings, or routine care — let’s talk about what your outdoor space needs.',
+  },
+  'demolition-junk-removal': {
+    eyebrow: 'CLEAR THE WAY FOR WHAT’S NEXT', title: 'LESS CLUTTER.<br><em>MORE POSSIBILITY.</em>',
+    intro: 'Demolition and junk removal to clear unwanted structures, furniture, and debris from your property.',
+    heading: 'DEMOLITION & JUNK REMOVAL',
+    description: 'Renovating, starting a new project, or decluttering? We provide efficient, thorough help clearing your space. From residential demolition to cleanouts and debris removal, we’ll discuss the scope and find a practical solution for your property.',
+    offerings: ['Demolition & site clearing', 'Basement & storage cleanouts', 'Furniture & unwanted-item removal', 'Construction debris removal', 'Scrap metal pickups', 'Moving & relocation help'],
+    galleryTitle: 'ROOM TO <em>START FRESH.</em>', galleryCopy: 'See our demolition and removal collection: cleanouts, debris clearing, and preparation for new work.',
+    cta: 'BRING BACK<br><em>PEACE OF MIND.</em>', ctaCopy: 'Make your space useful again. Tell us what needs to go and we’ll help you take the next step.',
+  },
+  'flooring': {
+    eyebrow: 'START WITH A SOLID FOUNDATION', title: 'FRESH FLOORS.<br><em>A WHOLE NEW FEEL.</em>',
+    intro: 'Tile, hardwood, and flooring options that bring character, comfort, and everyday practicality to your space.',
+    heading: 'TILE & HARDWOOD FLOORING',
+    description: 'Flooring sets the tone for a room. From hardwood and laminate to vinyl and carpet, we discuss options shaped around your style, budget, and how you use your home. Let’s find a foundation that fits your needs.',
+    offerings: ['Tile flooring', 'Hardwood options', 'Laminate flooring', 'Vinyl flooring', 'Carpet options', 'Room updates & finishing details'],
+    galleryTitle: 'DETAILS FROM OUR<br><em>TILE RENOVATIONS.</em>', galleryCopy: 'Tile photos from the home renovation collection. Explore the details alongside your flooring plans.',
+    cta: 'THE ROOM YOU’VE IMAGINED.<br><em>FROM THE FLOOR UP.</em>', ctaCopy: 'We’ll talk through your flooring ideas and the details that help make your renovation work for you.',
+  },
+  'repairs-maintenance': {
+    eyebrow: 'TAKE CARE OF THE LITTLE THINGS', title: 'FIX IT.<br><em>KEEP IT WORKING.</em>',
+    intro: 'Home repairs and appliance maintenance to help keep your property comfortable, dependable, and well cared for.',
+    heading: 'REPAIRS & MAINTENANCE',
+    description: 'From minor fixes to scheduled upkeep, we help tackle the issues that fill your to-do list. We provide home repairs, appliance maintenance, and help with common household concerns. Tell us what’s happening so we can discuss the right next step.',
+    offerings: ['General home repairs', 'Appliance maintenance', 'Routine property upkeep', 'Odd jobs & labor', 'Repair assessments', 'Scheduled maintenance'],
+    galleryTitle: 'UPKEEP & <em>RELIABILITY.</em>', galleryCopy: 'Explore our repair and maintenance photo collection.',
+    cta: 'THAT NAGGING ISSUE?<br><em>LET’S TACKLE IT.</em>', ctaCopy: 'Get help with the repair you’ve been putting off, and make more time for the things that matter.',
+  },
+  'custom-projects': {
+    eyebrow: 'YOUR IDEA. OUR HANDS.', title: 'SOMETHING DIFFERENT?<br><em>LET’S BUILD IT.</em>',
+    intro: 'Furniture assembly, outdoor spaces, and custom projects shaped around your personal style and requirements.',
+    heading: 'NO PROJECT TOO BIG OR SMALL',
+    description: 'Every project is different. Whether you need help assembling furniture or creating an outdoor place to relax and entertain, we work with your ideas and the details of your space. From patios, decks, and gardens to organization and assembly, let’s find a practical way forward.',
+    offerings: ['Furniture assembly', 'Outdoor space design', 'Patios & entertaining areas', 'Decks & gardens', 'Organization projects', 'Custom project planning'],
+    galleryTitle: 'MADE FOR <em>YOUR SPACE.</em>', galleryCopy: 'See our custom project collection, including outdoor structures and patio furniture.',
+    cta: 'FOCUS ON WHAT’S IMPORTANT.<br><em>WE’LL GET TO WORK.</em>', ctaCopy: 'Tell us about the project you want to finish — from a simple assembly to something you’ve imagined yourself.',
+  },
+  'auto-detailing': {
+    eyebrow: 'CARE IN EVERY CORNER', title: 'BRING BACK<br><em>THAT SHINE.</em>',
+    intro: 'Interior and exterior detailing for everyday commuters, trucks, SUVs, and sports cars.',
+    heading: 'YOUR VEHICLE, REFRESHED',
+    description: 'Detailing goes beyond a regular wash. We focus on dirt, grime, and stains inside and out, with cleaning for carpets, seats, and other surfaces, plus exterior washing, polishing, and waxing. Careful attention helps your vehicle look its best.',
+    offerings: ['Interior deep cleaning', 'Carpet & seat cleaning', 'Exterior washing', 'Polishing & waxing', 'Surface & trim care', 'Cars, trucks & SUVs'],
+    galleryTitle: 'DETAILS THAT <em>TURN HEADS.</em>', galleryCopy: 'Browse our auto detailing collection, from interior work to exterior finishes.',
+    cta: 'YOUR CAR’S ELEGANCE.<br><em>BACK IN THE SPOTLIGHT.</em>', ctaCopy: 'Let’s discuss the detailing your vehicle needs and bring back the confidence of a clean ride.',
+  },
+};
+const testimonials = [
+  {name: 'Jane D.', quote: 'The quality of the work is just so reassuring. LMX + provided excellent service and the renovation exceeded my expectations. I highly recommend their handyman services!'},
+  {name: 'Robert S.', quote: 'LMX + is the best! They were professional, efficient, and the workmanship was outstanding. I will definitely use them for future projects.'},
+  {name: 'Emily K.', quote: 'I was amazed at how quickly LMX + completed the job. The attention to detail was impeccable. Great value and exceptional service!'},
+];

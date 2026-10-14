@@ -1,0 +1,5 @@
+Mode: Built-in image_gen tool. Reference: public/assets/brand-reference.png (supplied IMG_8471.png).
+Output: public/assets/paint-grunge.png
+
+Final prompt:
+Create a website background texture asset only, landscape 1536x1024. Use the supplied LMX website mockup as style reference: vivid crimson red dry-brush paint splashes and jagged diagonal scrapes on rich jet black, subtle charcoal concrete texture. Broad rough red brushwork clustered along left edge and top right and lower right corners, with fine splatters and scraped black gaps. Large calm black negative space through the central 65 percent for legible website text. Energetic handmade grunge ink screenprint, exactly like the red paint smudges on the reference. Flat 2D texture, no gradients, no objects, no house, no typography, no letters, no logos, no UI, no borders. Edge brushwork must be strong and richly textured, not simple vector shapes. This is a reusable background asset, NOT a website screenshot.
