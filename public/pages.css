@@ -19,9 +19,26 @@ nav .services-dropdown a:hover,nav .services-dropdown a[aria-current]{background
 .service-detail-hero{min-height:540px}
 .service-detail-hero h1{font-size:clamp(52px,5.8vw,80px)}
 .service-detail-hero .lead{max-width:490px}
+/* Each service blends its photo into a different shade of the same paint artwork. */
+.renovation-hero{background:#050505}
+.renovation-hero:before{z-index:-3;background:var(--paint) center/cover;opacity:.7;mask-image:none;filter:brightness(.68) saturate(.85)}
+.renovation-hero[data-splash=charcoal]:before{filter:grayscale(1) brightness(.85)}
+.renovation-hero[data-splash=silver]:before{filter:grayscale(1) brightness(1.65)}
+.renovation-hero>img{width:75%;opacity:1;mask-image:linear-gradient(90deg,transparent,#0005 20%,black 48%),linear-gradient(180deg,black 72%,transparent);mask-composite:intersect}
+.renovation-hero:after{background:linear-gradient(90deg,#05050555,#05050560 43%,transparent 80%)}
+.landscape-overview{position:relative}
+.landscape-overview .service-overview{padding-bottom:110px}
+.landscape-grass{position:absolute;left:0;right:0;bottom:0;height:70px;z-index:2;pointer-events:none;background:url('/assets/grass-border.svg') left bottom/315px 70px repeat-x;border-bottom:2px solid #335d2c}
+@media(max-width:800px){.landscape-grass{height:48px;background-size:216px 48px}.landscape-overview .service-overview{padding-bottom:85px}}
 .service-overview{display:grid;grid-template-columns:1.15fr 1fr;gap:80px;align-items:center}
 .service-overview h2{font-size:44px;line-height:1.05;margin-bottom:22px}
 .service-overview>div>p:not(.eyebrow){font-size:17px;line-height:1.75}
+.junk-removal-accent,.service-illustration{display:block;width:100%;max-width:640px;height:auto;margin-top:24px}
+.vehicle-types{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin:32px 0 0;padding:0;list-style:none;max-width:530px}
+.vehicle-types li{text-align:center;font:600 20px var(--heading);text-transform:uppercase;letter-spacing:.5px}
+.vehicle-types .icon-medallion{width:76px;height:76px;margin-bottom:13px}
+.vehicle-types svg{width:53px;height:53px}
+@media(max-width:420px){.vehicle-types{gap:12px}.vehicle-types .icon-medallion{width:62px;height:62px}.vehicle-types svg{width:46px;height:46px}.vehicle-types li{font-size:18px}}
 .offerings{border-left:2px solid #b51b20;padding:20px 0 20px 32px}
 .offerings ul{list-style:none;margin:0;padding:0;display:grid;gap:12px}
 .offerings li{border-bottom:1px solid #333;padding-bottom:10px;display:flex;gap:15px;align-items:center}
@@ -72,6 +89,9 @@ nav .services-dropdown a:hover,nav .services-dropdown a[aria-current]{background
  nav .services-dropdown a{padding:12px 20px;font-size:16px}
  nav.open{max-height:calc(100dvh - 76px);overflow-y:auto}
  .service-detail-hero{min-height:520px}
+ .renovation-hero:before{opacity:.65}
+ .renovation-hero>img{width:100%;opacity:.65;mask-image:linear-gradient(90deg,transparent,#0008 35%,black),linear-gradient(180deg,black 60%,transparent)}
+ .renovation-hero:after{background:linear-gradient(90deg,#05050570,#05050535)}
  .service-detail-hero h1{font-size:55px}
  .service-overview,.service-next-step,.about-story,.about-principles,.testimonial-invitation{grid-template-columns:1fr;gap:30px}
  .offerings{padding-left:22px}.service-overview h2{font-size:37px}

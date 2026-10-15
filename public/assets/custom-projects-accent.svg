@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="210" viewBox="0 0 640 210" fill="none">
+  <g fill="#721217" opacity=".65"><path d="m18 183 105-25-24 19 133-11-51 22-161 12 36-17zm301 4 94-26-24 18 167-12-37 24-198 10z"/><circle cx="12" cy="174" r="3"/><circle cx="604" cy="182" r="3"/></g>
+  <path stroke="#666" stroke-width="2" d="M20 191h596"/>
+  <!-- Workbench legs and stretchers. -->
+  <g stroke="#ccd0c4" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round">
+    <path fill="#34382f" d="m87 89 18-2-5 99-20 1zm209-8 18-2 13 97-18 3z"/>
+    <path fill="#22271f" d="m119 94 17-1 4 88-17 1zm143-17 17-1 7 91-17 2z"/>
+    <path fill="#626b55" d="m96 154 214-10 2 12-217 10z"/>
+    <path fill="#31382b" d="m119 125 182 33 2 10-184-32z"/>
+    <path stroke="#727c65" d="m93 100-5 72m222-68 7 60"/>
+  </g>
+  <!-- Staggered top boards and red front apron. -->
+  <g stroke="#d6d8cc" stroke-width="2.7" stroke-linejoin="round">
+    <path fill="#3c4235" d="m51 72 219-17 55 18-224 19z"/>
+    <path fill="#303629" d="m72 88 219-18 54 19-223 19z"/>
+    <path fill="#8b1b22" d="m72 88 50 20 223-19-1 17-225 18-48-20z"/>
+    <path stroke="#777f6c" stroke-width="1.5" d="m88 73 172-13m-145 23 169-12m-156 23 101-8m-4-18 14-1 10 3-16 2z"/>
+    <path stroke="#db6c70" stroke-width="1.5" d="m139 115 63-5m68-6 48-4"/>
+  </g>
+  <!-- A loose board and a clamp suggest a project coming together. -->
+  <g stroke="#bdc4b1" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <path fill="#2b3326" d="m348 183 41-122 23 6-44 123z"/>
+    <path stroke="#68785b" d="m363 167 30-88"/>
+    <path fill="#181d16" d="m292 69 12-2 3 54-24 2-2-8 14-2z"/>
+    <path stroke="#dfddd3" d="m281 131 27-2m-15-12 1 17"/>
+  </g>
+  <!-- Tape measure, extended tape, and a carpenter's pencil. -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <path fill="#7d191f" stroke="#e0dfd5" stroke-width="2.8" d="M444 132c-17 0-26 12-26 28v18l55 1 8-10v-19c0-13-15-18-37-18z"/>
+    <path fill="#282e23" stroke="#b5bfa8" stroke-width="2" d="M434 151c0-6 6-10 15-10s16 4 16 10-7 11-16 11-15-4-15-11z"/>
+    <path fill="#b5bda9" stroke="#e0dfd5" stroke-width="2" d="m474 169 87 8-1 10-88-9z"/>
+    <path stroke="#252b20" stroke-width="2" d="m485 172-1 6m12-5-1 4m12-3-1 6m12-5-1 4m12-3-1 6m12-5-1 4m12-3-1 6"/>
+    <path fill="#ad242b" stroke="#deddd3" stroke-width="2.5" d="m487 126 61-58 9 9-61 58-14 6z"/>
+    <path fill="#b5bca7" stroke="#deddd3" stroke-width="2" d="m487 126 9 9-14 6z"/>
+    <path stroke="#e98589" stroke-width="1.5" d="m497 125 47-44"/>
+    <path stroke="#23271f" stroke-width="3" d="m483 140 5-5"/>
+  </g>
+</svg>

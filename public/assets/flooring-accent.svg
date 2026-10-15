@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="210" viewBox="0 0 640 210" fill="none">
+  <g fill="#721217" opacity=".65"><path d="m22 177 112-30-38 21 113-9-50 24-130 14 31-18zm299 9 95-26-20 17 154-10-41 22-185 10z"/><circle cx="19" cy="165" r="3"/><circle cx="583" cy="185" r="3"/></g>
+  <path stroke="#666" stroke-width="2" d="M20 191h596"/>
+  <!-- Staggered hardwood planks with restrained, worn grain lines. -->
+  <g stroke="#c8c9c2" stroke-width="2.5" stroke-linejoin="round">
+    <path fill="#292b28" d="m48 119 174-73 61 13-177 78z"/>
+    <path fill="#20221f" d="m63 146 211-91 62 14-216 95z"/>
+    <path fill="#661b1f" d="m91 169 205-90 62 14-210 94z"/>
+    <path fill="#282a26" d="m154 185 178-80 60 14-163 73z"/>
+    <path stroke="#777b70" stroke-width="1.5" d="m77 118 138-58m-111 67 146-65m-152 84 147-64m-124 70 81-35m-74 52 167-73m-141 79 139-61m-105 68 130-59"/>
+    <path stroke="#b66060" stroke-width="1.5" d="m146 162 133-57m-112 67 118-52"/>
+    <path stroke="#888c80" stroke-width="1.5" d="m154 98 10-4 10 2-9 5zm67 38 11-5 12 1-12 6z"/>
+  </g>
+  <!-- A staggered grid of tile, with one red accent tile. -->
+  <g stroke="#d0d1ca" stroke-width="2.5" stroke-linejoin="round">
+    <path fill="#313330" d="m338 104 59-26 61 13-59 27z"/>
+    <path fill="#242623" d="m404 119 59-26 61 13-59 27z"/>
+    <path fill="#393b36" d="m470 134 59-26 61 13-59 27z"/>
+    <path fill="#222421" d="m274 134 59-27 61 14-59 26z"/>
+    <path fill="#8e1b20" d="m340 149 59-27 61 14-59 26z"/>
+    <path fill="#292b27" d="m406 164 59-27 61 14-59 26z"/>
+    <path fill="#33352f" d="m276 178 59-27 61 14-59 26z"/>
+    <path stroke="#72786b" stroke-width="1.5" d="m365 101 21-10m35 24 31-14m39 28 21-10m-204 23 15-7m111 32 16-7m-147 22 15-6"/>
+  </g>
+  <!-- Carpenter's square rests across both materials. -->
+  <path fill="#ad2228" stroke="#e1dfd7" stroke-width="2.5" stroke-linejoin="round" d="m252 74 21-9 84 74-113 50-16-14 91-40z"/>
+  <path stroke="#f0d6cd" stroke-width="2" d="m260 79 6-3m2 10 6-3m3 10 6-3m2 10 6-3m3 10 6-3m-42 63 6 6m5-11 6 6m5-11 6 6m5-11 6 6m5-11 6 6"/>
+</svg>

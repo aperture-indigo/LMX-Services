@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="210" viewBox="0 0 640 210" fill="none">
+  <!-- A screen-print inspired accent using the site's existing red and charcoal palette. -->
+  <g fill="#721217" opacity=".65">
+    <path d="m21 169 82-25 52 6-102 35 81-9-26 16-92 6 37-17zM328 177l90-30-32 24 90-9-35 18 121-8-42 20-170 8 45-19z"/>
+    <path d="m26 142 8-6-2 11zm290 41 7-10 3 8zm282-25 10-5-4 9z"/>
+    <circle cx="13" cy="181" r="3"/><circle cx="612" cy="182" r="3"/><circle cx="330" cy="157" r="2"/>
+  </g>
+  <path stroke="#666" stroke-width="2" d="M20 191h596"/>
+  <!-- Broken boards and an old chair sit behind the smaller debris. -->
+  <g stroke="#b8b9b6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path fill="#202222" d="m393 164-17-95 15-4 22 97z"/>
+    <path stroke="#666" d="m383 82 16 66"/>
+    <path fill="#292929" d="m416 168 39-112 16 6-43 112z"/>
+    <path stroke="#666" d="m450 91-20 57"/>
+    <path fill="#181a1a" d="m507 80 48 7-8 54-48-7z"/>
+    <path d="m512 91 34 5-5 31-34-5m-12 13 57 8-5 13-57-8zm0 13-5 29m51-23 1 26m-52-46-5 34"/>
+  </g>
+  <!-- Boxes, a bent panel, a tire, and a discarded bucket. -->
+  <g stroke="#bbbcb8" stroke-width="2.4" stroke-linejoin="round">
+    <path fill="#303231" d="m381 132 49-15 34 20-48 15z"/>
+    <path fill="#212322" d="m381 132 35 20v36l-35-21z"/>
+    <path fill="#151717" d="m416 152 48-15v37l-48 14z"/>
+    <path stroke="#797b76" d="m404 125 33 21-1 14m-44-11 12 7m22 20 18-6"/>
+    <path fill="#252727" d="m477 130 43-15 34 47-39 20z"/>
+    <path stroke="#626662" d="m486 137 28 35m-18-43 28 34m-17-39 27 33"/>
+    <ellipse cx="487" cy="164" rx="24" ry="29" fill="#101111" transform="rotate(24 487 164)"/>
+    <ellipse cx="487" cy="164" rx="12" ry="17" stroke="#777b76" transform="rotate(24 487 164)"/>
+    <path stroke="#555b55" d="m477 140 5 6m-16 4 7 4m-9 10 8 1m-3 13 7-3m10 15-1-8m15 2-5-6m14-8-8-1m5-15-7 4"/>
+    <path fill="#74181c" d="m551 153 34 2-5 32-25-1z"/>
+    <ellipse cx="568" cy="154" rx="18" ry="5" fill="#282a28"/>
+    <path d="M552 153c-8-30 43-29 34 1"/>
+    <path fill="#343632" d="m354 182 12-19 22 6 8 18zm173 3 9-14 15 4 5 13z"/>
+  </g>
+  <!-- Steel dumpster with a dark red front, angled side, and worn white edges. -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <path fill="#272a28" stroke="#dbdcd7" stroke-width="3" d="m43 75 211-13 50 25-218 17z"/>
+    <path fill="#111412" stroke="#777e76" stroke-width="2" d="m59 79 191-12 37 18-200 13z"/>
+    <path fill="#9e1b20" stroke="#dddeda" stroke-width="3" d="m44 85 218-14-13 104-186 10z"/>
+    <path fill="#541418" stroke="#dddeda" stroke-width="3" d="m262 71 43 22-21 82-35 0z"/>
+    <path stroke="#e4dfd7" stroke-width="5" d="m41 84 222-15 46 23"/>
+    <path stroke="#6b0e14" stroke-width="8" d="m91 98 7 70m47-73 3 70m48-73-3 71m-119 11 162-9"/>
+    <path stroke="#d05a5c" stroke-width="2" d="m87 98 7 69m47-70 3 66m48-70-3 68m83-67-11 62"/>
+    <path fill="#101210" stroke="#bbbdb6" stroke-width="2" d="m76 185 4 6h29l3-8m105-6 2 8h27l3-10"/>
+    <path stroke="#d1c6bd" stroke-width="2" d="m65 111 12-2m-7 44 10-1m138-55 17-1m-18 57 10-1m-151 18 17-1"/>
+    <path fill="#edece6" d="m110 124 4 25 19-1-1-7-12 1-3-18zm26-2 6 26 7-1-3-14 10 12 5-13 4 13 7-1-9-25-7 1-4 12-9-11zm39-3 12 12-7 13 9-1 5-8 7 7 9-1-12-11 7-13-9 1-4 8-8-8zm38 0v6l-6 1 1 6 6-1 1 7 6-1-1-6 7-1-1-6-7 1-1-7z"/>
+  </g>
+</svg>

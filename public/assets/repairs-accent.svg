@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="210" viewBox="0 0 640 210" fill="none">
+  <g fill="#721217" opacity=".65"><path d="m40 181 111-32-32 23 124-10-43 24-157 12 30-17zm284 4 109-27-27 19 154-8-35 23-200 9z"/><circle cx="30" cy="173" r="3"/><circle cx="592" cy="188" r="3"/></g>
+  <path stroke="#666" stroke-width="2" d="M20 191h596"/>
+  <!-- Open steel lid and inset panel. -->
+  <g stroke="#c8cbc3" stroke-width="2.7" stroke-linejoin="round">
+    <path fill="#30322e" d="m121 108-21-63 220-14 25 68z"/>
+    <path fill="#161916" stroke="#777e70" d="m132 94-12-35 185-13 13 36z"/>
+    <path fill="#141614" d="m111 112 226-15 47 21-229 18z"/>
+  </g>
+  <!-- Hammer, screwdriver and open-ended wrench. -->
+  <g stroke="#e0dfd7" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <path fill="#881a20" d="m171 120-12-63 13-3 15 65z"/>
+    <path fill="#a4a7a0" d="m145 43 32-8 15 11-8 10-11-5-26 6-7-5z"/>
+    <path stroke="#535b50" d="m150 46 20-5"/>
+    <path fill="#969d91" d="m231 120 11-71-6-7 3-18 7-2 3 19-4 9-5 71z"/>
+    <path fill="#af2229" d="m225 87 22 3-4 39-22-3z"/>
+    <path stroke="#6d1218" stroke-width="3" d="m230 96-3 21m13-20-3 21"/>
+    <path fill="#939b8c" d="m286 120 20-62c-18-7-15-24-4-31l1 15 11 4 8-9 1-14c16 12 12 31-3 38l-19 64z"/>
+    <path stroke="#535b4b" d="m296 112 16-48"/>
+  </g>
+  <!-- Red front with metal handle, clasp, and a darker end panel. -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <path fill="#a31e25" stroke="#dedfd6" stroke-width="3" d="m111 118 228-17 1 77-224 12z"/>
+    <path fill="#581319" stroke="#dedfd6" stroke-width="3" d="m339 101 46 21-6 51-39 5z"/>
+    <path fill="#161916" stroke="#d2d6c9" stroke-width="3" d="m197 127-1-14c0-6 8-9 15-9l48-3c8 0 14 3 15 9l1 11-12 1-1-9-53 4 1 9z"/>
+    <path fill="#a6ad9b" stroke="#e0e2d9" stroke-width="2" d="m223 144 20-1v19l-19 1z"/>
+    <path stroke="#6f1018" stroke-width="4" d="m133 139 55-4m-52 39 69-4m56-34 58-4m-56 40 54-3"/>
+    <path stroke="#d36367" stroke-width="1.5" d="m131 129 43-3m101-10 40-3m-43 58 28-1"/>
+  </g>
+  <!-- Spare wrench and fasteners beside the toolbox. -->
+  <g stroke="#c8cbc3" stroke-width="2.5" stroke-linejoin="round">
+    <path fill="#676f60" d="m413 166 77-38 15 3 8 13-7 14-14-2-4-9-69 34-14-4-4-9 7-12 9 2z"/>
+    <path fill="#343a30" d="m503 179 10-8 12 4 2 12-11 7-12-4z"/>
+    <circle cx="515" cy="183" r="4"/>
+    <path d="m548 165 13 16m-19-13 9-7m-6 16 6-5m-2 10 6-5"/>
+  </g>
+</svg>

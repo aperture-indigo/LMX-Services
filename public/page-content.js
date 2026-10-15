@@ -47,12 +47,12 @@ const servicePages = {
   },
   'auto-detailing': {
     eyebrow: 'CARE IN EVERY CORNER', title: 'BRING BACK<br><em>THAT SHINE.</em>',
-    intro: 'Interior and exterior detailing for everyday commuters, trucks, SUVs, and sports cars.',
+    intro: 'Interior and exterior detailing for cars, trucks, SUVs, and boats — from everyday commuters to weekends on the water.',
     heading: 'YOUR VEHICLE, REFRESHED',
     description: 'Detailing goes beyond a regular wash. We focus on dirt, grime, and stains inside and out, with cleaning for carpets, seats, and other surfaces, plus exterior washing, polishing, and waxing. Careful attention helps your vehicle look its best.',
-    offerings: ['Interior deep cleaning', 'Carpet & seat cleaning', 'Exterior washing', 'Polishing & waxing', 'Surface & trim care', 'Cars, trucks & SUVs'],
+    offerings: ['Interior deep cleaning', 'Carpet & seat cleaning', 'Exterior washing', 'Polishing & waxing', 'Surface & trim care', 'Cars, trucks, SUVs & boats'],
     galleryTitle: 'DETAILS THAT <em>TURN HEADS.</em>', galleryCopy: 'Browse our auto detailing collection, from interior work to exterior finishes.',
-    cta: 'YOUR CAR’S ELEGANCE.<br><em>BACK IN THE SPOTLIGHT.</em>', ctaCopy: 'Let’s discuss the detailing your vehicle needs and bring back the confidence of a clean ride.',
+    cta: 'ON THE ROAD OR WATER.<br><em>BRING BACK THE SHINE.</em>', ctaCopy: 'Let’s discuss the detailing your car, truck, SUV, or boat needs and bring back a finish you’re proud of.',
   },
 };
 const testimonials = [

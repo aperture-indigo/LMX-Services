@@ -8,9 +8,13 @@ const services=[
  ['Flooring','flooring','Give your space a fresh foundation with flooring updates and careful finishing.',null,'▱'],
  ['Repairs & Maintenance','repairs-maintenance','The fixes your property needs, with the care and attention it deserves.',null,'⚒'],
  ['Custom Projects','custom-projects','Have something different in mind? Let’s find a practical way to bring it to life.',null,'✧'],
- ['Auto Detailing','auto-detailing','Interior and exterior detailing for your car, truck, or SUV.',null,'◇']
+ ['Auto Detailing','auto-detailing','Interior and exterior detailing for cars, trucks, SUVs, and boats.',null,'◇']
 ];
 const iconPaths={
+ car:'<path d="M6 40v-9l9-3 8-11h18l10 12 7 3v8h-7m-12 0H24m-12 0H6m11-12h29M29 18v10"/><circle cx="18" cy="40" r="6"/><circle cx="45" cy="40" r="6"/>',
+ pickup:'<path d="M5 37V24h23V15h14l10 12 7 3v12h-8m-12 0H24m-12 0H5v-5m23-13v12m7-20v12h17"/><circle cx="18" cy="42" r="6"/><circle cx="45" cy="42" r="6"/>',
+ suv:'<path d="M5 41V24l7-10h30l10 12 7 4v11h-8m-12 0H24m-12 0H5M10 26h42M25 15v11m13-11v11M15 10h24M9 33h5m38 0h5"/><circle cx="18" cy="41" r="6"/><circle cx="45" cy="41" r="6"/>',
+ boat:'<path d="m5 33 8 13h33l13-17-24 4H5zm14 0 6-12h18l7 9M30 21v-9h9l7 9M6 53c5-6 10 6 16 0s10 6 16 0 10 6 19 0"/>',
  floor:'<path d="M7 19h50v31H7zm0 10h50M7 40h50M23 19v10m19 0v11M23 40v10"/>',
  custom:'<path d="m32 7 7 17 18 8-18 7-7 18-7-18-18-7 18-8z"/>',
  auto:'<path d="m11 31 7-16h28l7 16M7 31h50v18H7zm8 18v6m34-6v6M15 39h8m18 0h8M19 24h26"/>',
@@ -76,6 +80,24 @@ async function init(){
  }else{content=`<section class="wrap placeholder"><p class="eyebrow">LMX+ SERVICES</p><h1>Page not found</h1><p>Explore our services or return to the home page.</p>${button('Back to home','/',true)}</section>`}
  document.body.classList.toggle('home-page',path==='/');
  document.querySelector('main').innerHTML=content;
+ if(path==='/our-services/auto-detailing')document.querySelector('.service-overview>div').insertAdjacentHTML('beforeend',`<ul class="vehicle-types" aria-label="Vehicles we detail">${[['car','Cars'],['pickup','Trucks'],['suv','SUVs'],['boat','Boats']].map(([icon,label])=>`<li><span class="icon-medallion">${lineIcon(icon)}</span><span>${label}</span></li>`).join('')}</ul>`);
+ if(path==='/our-services/demolition-junk-removal')document.querySelector('.service-overview>div').insertAdjacentHTML('beforeend','<img class="junk-removal-accent" src="/assets/junk-removal-accent.svg" alt="A red dumpster with a pile of discarded furniture, boxes, and debris to its right" width="640" height="210">');
+ const serviceAccents={
+  '/our-services/flooring':['flooring-accent.svg','Staggered wood planks transitioning into tiles, with a red carpenter’s square'],
+  '/our-services/repairs-maintenance':['repairs-accent.svg','An open red toolbox holding a hammer, screwdriver, and wrench'],
+  '/our-services/custom-projects':['custom-projects-accent.svg','A workbench with a loose board, carpenter’s pencil, and tape measure'],
+ };
+ if(serviceAccents[path]){const [asset,description]=serviceAccents[path];document.querySelector('.service-overview>div').insertAdjacentHTML('beforeend',`<img class="service-illustration" src="/assets/${asset}" alt="${description}" width="640" height="210">`);}
+ const serviceHeader=document.querySelector('.renovation-hero');
+ if(serviceHeader){const serviceIndex=services.findIndex(service=>path==='/our-services/'+service[1]);serviceHeader.dataset.splash=['red','charcoal','silver'][Math.max(serviceIndex,0)%3];}
+ if(path==='/our-services/landscaping-and-lawn'){
+  const overview=document.querySelector('.service-overview');
+  const landscapeSection=document.createElement('div');
+  landscapeSection.className='landscape-overview';
+  overview.replaceWith(landscapeSection);
+  landscapeSection.append(overview);
+  landscapeSection.insertAdjacentHTML('beforeend','<span class="landscape-grass" aria-hidden="true"></span>');
+ }
  document.title=(path==='/'?'General Contracting & Handyman Services':path==='/our-services'?'Our Services':path===reno?'Home Renovations':paths[path]||({'/about-us':'About Us','/client-testimonials':'Client Testimonials'})[path]||'LMX Services')+' | LMX+';
  if(location.hash)requestAnimationFrame(()=>document.getElementById(location.hash.slice(1))?.scrollIntoView());
 }
