@@ -1,7 +1,7 @@
 const {chromium}=require('/home/apertureindigo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 const {spawn}=require('node:child_process');
 const assert=require('node:assert/strict');
-const routes=['/','/our-services','/our-services/home-renovations','/our-services/landscaping-and-lawn','/our-services/demolition-junk-removal','/our-services/flooring','/our-services/repairs-maintenance','/our-services/custom-projects','/our-services/auto-detailing','/about-us','/client-testimonials'];
+const routes=['/','/our-services','/our-services/home-renovations','/our-services/landscaping-and-lawn','/our-services/demolition-junk-removal','/our-services/flooring','/our-services/repairs-maintenance','/our-services/custom-projects','/our-services/auto-detailing','/our-services/pest-rodent-control','/about-us','/client-testimonials'];
 (async()=>{
  const server=spawn(process.execPath,['server.js'],{env:{...process.env,PORT:'3018'},stdio:'pipe'});
  await new Promise((resolve,reject)=>{server.stdout.once('data',resolve);server.stderr.once('data',d=>reject(new Error(String(d))))});
@@ -17,6 +17,11 @@ const routes=['/','/our-services','/our-services/home-renovations','/our-service
    assert(!(await page.locator('main').textContent()).includes('reserved for the next phase'),route);
    await page.evaluate(()=>document.fonts.ready);
    const thumbCount=await page.locator('.collection-photo').count();
+   if(route==='/our-services/pest-rodent-control'){
+    assert.equal(await page.locator('#projects,.collection-grid,[data-project]').count(),0,'Pest page must not have a photo gallery');
+    assert.equal(await page.locator('.service-illustration').count(),1);
+    assert.equal(await page.locator('.offerings li').count(),6);
+   }
    if(thumbCount){
     const thumb=page.locator('.collection-photo').last();
     const n=Number(await thumb.getAttribute('data-photo'))+1;
@@ -37,13 +42,13 @@ const routes=['/','/our-services','/our-services/home-renovations','/our-service
    assert.deepEqual(broken,[],route+' broken images');
    assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),route+' desktop overflow');
    await page.evaluate(()=>scrollTo(0,0));
-   if(['/our-services/landscaping-and-lawn','/about-us','/client-testimonials'].includes(route))await page.screenshot({path:'/tmp/lmx-'+route.split('/').pop()+'-new-desktop.png',fullPage:true});
+   if(['/our-services/pest-rodent-control','/about-us','/client-testimonials'].includes(route))await page.screenshot({path:'/tmp/lmx-'+route.split('/').pop()+'-new-desktop.png',fullPage:true});
    console.log('PASS',route,thumbCount?'gallery verified':'page verified');
   }
   await page.goto('http://127.0.0.1:3018/');await page.locator('main h1').waitFor();
   assert.equal(await page.locator('#navigation > a[href="/our-services/home-renovations"]').count(),0);
   await page.locator('.services-toggle').click();assert(await page.locator('#services-dropdown').isVisible());
-  assert.equal(await page.locator('#services-dropdown a').count(),7);
+  assert.equal(await page.locator('#services-dropdown a').count(),8);
   await page.screenshot({path:'/tmp/lmx-dropdown-desktop.png'});
   await page.keyboard.press('Escape');assert(!await page.locator('#services-dropdown').isVisible());
   await page.locator('.services-toggle').focus();await page.keyboard.press('ArrowDown');
@@ -55,7 +60,7 @@ const routes=['/','/our-services','/our-services/home-renovations','/our-service
   for(const route of routes){
    await page.goto('http://127.0.0.1:3018'+route);await page.locator('main h1').waitFor();await page.evaluate(()=>document.fonts.ready);
    assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),route+' mobile overflow');
-   if(['/our-services/landscaping-and-lawn','/about-us','/client-testimonials'].includes(route))await page.screenshot({path:'/tmp/lmx-'+route.split('/').pop()+'-new-mobile.png',fullPage:true});
+   if(['/our-services/pest-rodent-control','/about-us','/client-testimonials'].includes(route))await page.screenshot({path:'/tmp/lmx-'+route.split('/').pop()+'-new-mobile.png',fullPage:true});
   }
   await page.locator('.menu').click();await page.locator('.services-toggle').click();assert(await page.locator('#services-dropdown').isVisible());
   await page.screenshot({path:'/tmp/lmx-dropdown-mobile.png'});

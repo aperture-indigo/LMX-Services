@@ -22,10 +22,11 @@ Open http://localhost:3000. Use `PORT=3010 npm run dev` if port 3000 is occupied
 - `/our-services/repairs-maintenance` — Repairs & Maintenance
 - `/our-services/custom-projects` — Custom Projects
 - `/our-services/auto-detailing` — Auto Detailing
+- `/our-services/pest-rodent-control` — Pest & Rodent Control, with a matching illustration and no photo gallery
 - `/about-us` — About Us
 - `/client-testimonials` — Client Testimonials
 
-The seven service pages appear under the Our Services dropdown. The parent link opens the services overview; the arrow button opens the dropdown. Keyboard users can press Arrow Down on the arrow button to open and focus the first service, and Escape to close. The mobile navigation supports the same dropdown.
+The eight service pages appear under the Our Services dropdown. The parent link opens the services overview; the arrow button opens the dropdown. Keyboard users can press Arrow Down on the arrow button to open and focus the first service, and Escape to close. The mobile navigation supports the same dropdown.
 
 All 64 renovation photos use the existing remote URLs, listed in `public/photos.json`. They are grouped by the original filenames; confirm project boundaries before launch. The supplied marketing artwork is in `public/assets/` and framed with CSS. Google Fonts provides Barlow and Barlow Condensed, with system fallbacks.
 
@@ -37,7 +38,7 @@ Photo galleries support previous/next buttons, arrow keys, Escape to close, phot
 
 ## Verification
 
-Desktop (1440 px) and mobile (390 px) browser checks covered all 11 pages, hosted image loading, gallery navigation and pagination, filtering, dropdown behavior, keyboard controls, horizontal overflow, and JavaScript errors. `scripts/verify-pages.cjs` is the complete local QA helper using the Playwright runtime available in this environment; `scripts/verify-demo.cjs` covers the initial three pages.
+Desktop (1440 px) and mobile (390 px) browser checks covered all 12 pages, hosted image loading, gallery navigation and pagination, filtering, dropdown behavior, keyboard controls, horizontal overflow, and JavaScript errors. The Pest & Rodent Control page is checked for its illustration, service details, and absence of a photo gallery. `scripts/verify-pages.cjs` is the complete local QA helper using the Playwright runtime available in this environment; `scripts/verify-demo.cjs` covers the initial three pages.
 
 ## Mockup-inspired visual redesign
 

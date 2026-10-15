@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="210" viewBox="0 0 640 210" fill="none">
+  <g fill="#721217" opacity=".65"><path d="m20 181 102-25-27 20 123-11-41 23-155 11 29-17zm299 5 104-29-24 20 161-9-39 22-197 10z"/><circle cx="19" cy="168" r="3"/><circle cx="598" cy="184" r="3"/></g>
+  <path stroke="#666" stroke-width="2" d="M20 191h596"/>
+  <!-- House and protective shield, in the same charcoal-and-red line style. -->
+  <g stroke="#ced0c7" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round">
+    <path fill="#242923" d="m235 85 80-60 82 60-13 4v91H248V89z"/>
+    <path fill="#343b31" d="m251 80 64-45 64 45"/>
+    <path fill="#121711" d="M267 93h28v27h-28zm69 0h28v27h-28z"/>
+    <path d="M281 94v25m-13-13h26m56-12v25m-13-13h26"/>
+    <path fill="#8e1b22" d="m315 108 46 15v27c0 23-20 37-46 48-26-11-46-25-46-48v-27z"/>
+    <path stroke="#dfded6" stroke-width="5" d="m293 152 16 16 29-32"/>
+  </g>
+  <!-- Mouse on the left. -->
+  <g stroke="#cdd1c5" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round">
+    <path fill="#292f27" d="M103 160c-4-22 10-38 38-39 21-1 37 8 49 27l14 13-13 9-54 3-25-4z"/>
+    <path fill="#394332" d="M157 131c-15-21 6-38 18-23 6 8 1 20-10 25"/>
+    <path stroke="#777f6d" d="M162 119c-6-10 3-14 7-8"/>
+    <path d="M105 157c-30-5-46 6-40 18 6 13 30 6 25-4m36 0-7 9m48-9 10 8m8-24 24-5m-22 10 26 3"/>
+    <circle cx="180" cy="148" r="2.7" fill="#daddd2" stroke="none"/>
+  </g>
+  <!-- Insect on the right. -->
+  <g stroke="#cdd1c5" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="492" cy="151" rx="27" ry="35" fill="#242b21"/>
+    <path fill="#414b37" d="M478 119c-8-20 35-20 28 0"/>
+    <path d="M492 119v66m-26-48-20-12-7 7m27 20h-27l-6 9m34 7-18 15-9-2m78-44 20-12 7 7m-27 20h27l6 9m-34 7 18 15 9-2m-65-65-10-11m32 11 10-11m-40 46h48"/>
+    <path stroke="#a12027" stroke-width="4" d="m451 188 80-77"/>
+  </g>
+</svg>

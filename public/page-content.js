@@ -1,5 +1,14 @@
 // Content adapted from the original LMX pages; project photos use their original URLs.
 const servicePages = {
+  'pest-rodent-control': {
+    eyebrow: 'KEEP UNWANTED GUESTS OUT', title: 'YOUR SPACE.<br><em>TAKE IT BACK.</em>',
+    intro: 'Pest and rodent control to help you care for your home and property. Let’s address the problem and plan the next steps.',
+    heading: 'PEST & RODENT CONTROL',
+    description: 'Unwanted pests and rodents can disrupt the comfort of your space. Tell us what you’ve noticed and where the activity is happening. We’ll discuss your concerns, look at potential entry points, and help you plan control and prevention measures suited to your property.',
+    offerings: ['Pest & rodent assessments', 'Rodent control', 'Pest control options', 'Entry-point checks', 'Prevention recommendations', 'Follow-up planning'],
+    cta: 'A MORE COMFORTABLE SPACE.<br><em>STARTS WITH A CONVERSATION.</em>',
+    ctaCopy: 'Noticing signs of pests or rodents? Contact us to discuss your property and request an estimate.',
+  },
   'landscaping-and-lawn': {
     eyebrow: 'A BETTER SPACE, OUTSIDE', title: 'YOUR YARD.<br><em>OUR CARE.</em>',
     intro: 'Landscaping and lawn care for residential and commercial properties. Keep your outdoor space clean, healthy, and ready to enjoy.',
