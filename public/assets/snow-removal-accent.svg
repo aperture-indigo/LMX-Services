@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="210" viewBox="0 0 640 210" fill="none">
+  <g fill="#721217" opacity=".65"><path d="m23 180 107-28-26 21 143-13-48 28-173 11 31-18zm322 7 79-26-23 17 151-11-32 24-171 10z"/><circle cx="17" cy="172" r="3"/><circle cx="597" cy="185" r="3"/></g>
+  <path stroke="#8a938e" stroke-width="2" d="M20 191h596"/>
+  <!-- Plow truck: charcoal body, white outlines, and the site's red accents. -->
+  <g stroke="#d2d6cc" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round">
+    <path fill="#2b312b" d="M62 104h118V66h84l45 50 52 12v43h-35m-75 0h-92m-57 0H62z"/>
+    <path fill="#921c23" d="M63 107h116v47H63zm119 11h120l57 13v22H182z"/>
+    <path fill="#161c18" d="M195 79h60l32 35h-92z"/>
+    <path d="M223 80v34m-37 6v35m9-27h14m93 3h25m-18-22 7-5 4 20M69 145h103"/>
+    <path fill="#8a9490" d="M336 139h22v12h-22zM66 134h10v14H66z"/>
+    <path fill="#a41e25" d="M223 56h27v10h-27z"/>
+    <circle cx="127" cy="166" r="26" fill="#101611"/>
+    <circle cx="127" cy="166" r="12" fill="#626e64"/>
+    <circle cx="291" cy="166" r="26" fill="#101611"/>
+    <circle cx="291" cy="166" r="12" fill="#626e64"/>
+    <path stroke="#5b665b" d="m109 148 5 5m26 26 5 5m-42-18h8m32 0h8m-24-24v8m0 32v8m146-42 5 5m26 26 5 5m-42-18h8m32 0h8m-24-24v8m0 32v8"/>
+    <path fill="#242e26" d="m359 155 41 8 8 10-47-6z"/>
+    <path fill="#a02027" d="m400 123 61-14 19 69-78 11c11-28 7-48-2-66z"/>
+    <path stroke="#e38e8f" stroke-width="1.5" d="m414 130 42-10m-38 54 46-7m-36-34 8 33m10-38 9 34"/>
+    <path stroke="#e2e4dc" stroke-width="4" d="m402 189 78-11"/>
+  </g>
+  <!-- A small snowbank and shovel beside the blade. -->
+  <g stroke="#cad6cf" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <path fill="#3c4942" d="M468 188c0-14 14-22 26-15 3-19 28-25 39-8 14-7 29 1 28 15 13-3 22 2 26 10z"/>
+    <path stroke="#6c7d72" d="m484 184 10-2m20-10 12 2m28 10 10 1"/>
+    <path stroke-width="5" d="m541 151 20-69"/>
+    <path fill="#861e23" d="m553 65 23 6-5 16-18-5z"/>
+    <path fill="#7a2228" d="m525 145 27 8-7 23c-2 8-15 9-24 2z"/>
+  </g>
+  <g stroke="#a4b8ab" stroke-width="2" stroke-linecap="round" opacity=".8">
+    <path d="M95 36v24M85 42l20 12m-20 0 20-12m-15-3 5 5 5-5m-10 18 5-5 5 5M445 34v20m-9-15 18 10m-18 0 18-10"/>
+    <path d="m344 60 3 6m-65-34 3 6m219 68 3 6"/>
+  </g>
+</svg>

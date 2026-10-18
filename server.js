@@ -11,7 +11,7 @@ app.get('/health', (_request, response) => {
   response.json({ status: 'ok' });
 });
 
-const pages = ['/', '/our-services', '/our-services/home-renovations', '/our-services/landscaping-and-lawn', '/our-services/demolition-junk-removal', '/our-services/flooring', '/our-services/repairs-maintenance', '/our-services/custom-projects', '/our-services/auto-detailing', '/our-services/pest-rodent-control', '/about-us', '/client-testimonials'];
+const pages = ['/', '/our-services', '/our-services/home-renovations', '/our-services/landscaping-and-lawn', '/our-services/demolition-junk-removal', '/our-services/flooring', '/our-services/repairs-maintenance', '/our-services/custom-projects', '/our-services/auto-detailing', '/our-services/pest-rodent-control', '/our-services/snow-removal', '/about-us', '/client-testimonials'];
 app.get(pages, (_request, response) => response.sendFile(path.join(__dirname, 'public', 'index.html')));
 
 app.use((_request, response) => {

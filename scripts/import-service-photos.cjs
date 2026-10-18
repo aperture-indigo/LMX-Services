@@ -1,5 +1,8 @@
 // Import hosted photo URLs from downloaded original pages, without downloading photos.
 const fs = require('node:fs');
+if (fs.existsSync('public/service-photos.json') && fs.readFileSync('public/service-photos.json', 'utf8').includes('/images/')) {
+  throw new Error('Photos have been migrated locally. Update public/service-photos.json with local paths; this legacy importer must not overwrite the local photo collection.');
+}
 const names = {
   'landscaping-and-lawn': 'landscaping',
   'demolition-junk-removal': 'demolition',

@@ -1,5 +1,15 @@
 // Content adapted from the original LMX pages; project photos use their original URLs.
 const servicePages = {
+  'snow-removal': {
+    eyebrow: 'WHEN WINTER SHOWS UP, WE GET TO WORK', title: 'SNOW FALLS.<br><em>WE CLEAR THE WAY.</em>',
+    intro: 'Snow removal, de-icing, and salting for your home or business. Let’s keep the paths you use ready for winter.',
+    heading: 'SNOW REMOVAL & WINTER CARE',
+    description: 'From a snow-covered driveway to the walkways around your property, winter brings plenty of work. We help with snow plowing, clearing, de-icing, and salting. Tell us about your property, the areas you need access to, and your winter needs so we can discuss a practical plan.',
+    offerings: ['Driveway snow plowing', 'Walkway & entrance clearing', 'Residential & commercial properties', 'De-icing', 'Salting', 'Winter service planning'],
+    galleryTitle: 'CLEAR PATHS.<br><em>WINTER READY.</em>', galleryCopy: 'Explore our snow removal work and winter property care.',
+    cta: 'LESS SHOVELING.<br><em>MORE PEACE OF MIND.</em>', ctaCopy: 'Get ahead of the next snowfall. Contact us to discuss your property and request a snow removal estimate.',
+    heroAlt: 'Stock photo of a pickup truck with a yellow plow pushing through fresh snow',
+  },
   'pest-rodent-control': {
     eyebrow: 'KEEP UNWANTED GUESTS OUT', title: 'YOUR SPACE.<br><em>TAKE IT BACK.</em>',
     intro: 'Pest and rodent control to help you care for your home and property. Let’s address the problem and plan the next steps.',

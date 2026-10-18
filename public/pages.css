@@ -19,6 +19,8 @@ nav .services-dropdown a:hover,nav .services-dropdown a[aria-current]{background
 .service-detail-hero{min-height:540px}
 .service-detail-hero h1{font-size:clamp(52px,5.8vw,80px)}
 .service-detail-hero .lead{max-width:490px}
+.hero-photo-credit{position:absolute;right:24px;bottom:14px;z-index:2;font-size:10px;color:#ccc;background:#050505b8;padding:4px 8px;border-radius:2px}
+.hero-photo-credit:hover{color:white;text-decoration:underline}
 .hero-service-symbol{position:absolute;right:8%;top:50%;transform:translateY(-50%) rotate(-7deg);width:330px;height:330px;color:#dadbd5;opacity:.65;filter:drop-shadow(5px 5px #83181e);pointer-events:none}
 .hero-service-symbol svg{width:100%;height:100%;stroke-width:1.2}
 @media(max-width:800px){.hero-service-symbol{right:-35px;width:260px;height:260px;opacity:.15}}
