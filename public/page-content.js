@@ -1,4 +1,4 @@
-// Content adapted from the original LMX pages; project photos use their original URLs.
+// Content adapted from the original LMX pages; photos are stored locally.
 const servicePages = {
   'snow-removal': {
     eyebrow: 'WHEN WINTER SHOWS UP, WE GET TO WORK', title: 'SNOW FALLS.<br><em>WE CLEAR THE WAY.</em>',
@@ -8,7 +8,7 @@ const servicePages = {
     offerings: ['Driveway snow plowing', 'Walkway & entrance clearing', 'Residential & commercial properties', 'De-icing', 'Salting', 'Winter service planning'],
     galleryTitle: 'CLEAR PATHS.<br><em>WINTER READY.</em>', galleryCopy: 'Explore our snow removal work and winter property care.',
     cta: 'LESS SHOVELING.<br><em>MORE PEACE OF MIND.</em>', ctaCopy: 'Get ahead of the next snowfall. Contact us to discuss your property and request a snow removal estimate.',
-    heroAlt: 'Stock photo of a pickup truck with a yellow plow pushing through fresh snow',
+    heroAlt: 'Deep snow around the Burnside Fountain on Worcester Common, Massachusetts, in February 2015',
   },
   'pest-rodent-control': {
     eyebrow: 'KEEP UNWANTED GUESTS OUT', title: 'YOUR SPACE.<br><em>TAKE IT BACK.</em>',
@@ -18,6 +18,7 @@ const servicePages = {
     offerings: ['Pest & rodent assessments', 'Rodent control', 'Pest control options', 'Entry-point checks', 'Prevention recommendations', 'Follow-up planning'],
     cta: 'A MORE COMFORTABLE SPACE.<br><em>STARTS WITH A CONVERSATION.</em>',
     ctaCopy: 'Noticing signs of pests or rodents? Contact us to discuss your property and request an estimate.',
+    heroAlt: 'A worker carrying out pest treatment with a fogging machine inside a warehouse',
   },
   'landscaping-and-lawn': {
     eyebrow: 'A BETTER SPACE, OUTSIDE', title: 'YOUR YARD.<br><em>OUR CARE.</em>',

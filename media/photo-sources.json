@@ -1018,6 +1018,24 @@
       "bytes": 405033,
       "sha256": "6435c1c76d7288a26ff72490269d6bf3315ae25cfa8bfdfdbbef542c85e801cd",
       "copiedLocally": true
+    },
+    {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Turtleboy_with_scarf.jpg",
+      "path": "/images/snow-removal/header/worcester-common-snow.jpg",
+      "bytes": 125109,
+      "sha256": "d6d92851bf782fb41974332d2a94fe481572b4f25c18e1883f912f318a498589",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Turtleboy_with_scarf.jpg",
+      "license": "CC0-1.0",
+      "downloadedAt": "2026-10-18"
+    },
+    {
+      "source": "https://images.pexels.com/photos/36302077/pexels-photo-36302077.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "path": "/images/pest-rodent-control/header/pest-treatment-warehouse.jpg",
+      "bytes": 440019,
+      "sha256": "361f0286f74a7a86b7ccbc8109160b4944aed107a7ef5a523dcde2b09987582a",
+      "sourcePage": "https://www.pexels.com/photo/worker-fumigating-industrial-warehouse-36302077/",
+      "license": "Pexels License",
+      "downloadedAt": "2026-10-18"
     }
   ],
   "appliedAt": "2026-10-17T21:46:03.342Z"

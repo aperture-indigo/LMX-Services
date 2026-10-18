@@ -1,7 +1,11 @@
 {
   "snow-removal": {
     "photos": [],
-    "hero": "/images/snow-removal/header/pickup-plowing-snow.jpg"
+    "hero": "/images/snow-removal/header/worcester-common-snow.jpg"
+  },
+  "pest-rodent-control": {
+    "photos": [],
+    "hero": "/images/pest-rodent-control/header/pest-treatment-warehouse.jpg"
   },
   "landscaping-and-lawn": {
     "photos": [
