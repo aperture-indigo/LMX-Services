@@ -1036,6 +1036,15 @@
       "sourcePage": "https://www.pexels.com/photo/worker-fumigating-industrial-warehouse-36302077/",
       "license": "Pexels License",
       "downloadedAt": "2026-10-18"
+    },
+    {
+      "source": "https://images.pexels.com/photos/36359806/pexels-photo-36359806.jpeg?auto=compress&cs=tinysrgb&w=2000",
+      "path": "/images/snow-removal/header/boston-residential-street-snow.jpg",
+      "bytes": 1532355,
+      "sha256": "7d99b300a90fc7b5f2b9ca40d7e9070b4bd6177a0a235329a5a7334d7a7abe7d",
+      "sourcePage": "https://www.pexels.com/photo/snow-covered-suburban-street-in-winter-36359806/",
+      "license": "Pexels License",
+      "downloadedAt": "2026-10-20"
     }
   ],
   "appliedAt": "2026-10-17T21:46:03.342Z"

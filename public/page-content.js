@@ -8,7 +8,7 @@ const servicePages = {
     offerings: ['Driveway snow plowing', 'Walkway & entrance clearing', 'Residential & commercial properties', 'De-icing', 'Salting', 'Winter service planning'],
     galleryTitle: 'CLEAR PATHS.<br><em>WINTER READY.</em>', galleryCopy: 'Explore our snow removal work and winter property care.',
     cta: 'LESS SHOVELING.<br><em>MORE PEACE OF MIND.</em>', ctaCopy: 'Get ahead of the next snowfall. Contact us to discuss your property and request a snow removal estimate.',
-    heroAlt: 'Deep snow around the Burnside Fountain on Worcester Common, Massachusetts, in February 2015',
+    heroAlt: 'A quiet residential street in Boston lined with snowbanks, houses, and snow-covered trees',
   },
   'pest-rodent-control': {
     eyebrow: 'KEEP UNWANTED GUESTS OUT', title: 'YOUR SPACE.<br><em>TAKE IT BACK.</em>',

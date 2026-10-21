@@ -2,6 +2,18 @@
 
 ## Current Snow Removal header
 
+- Website file: `public/images/snow-removal/header/boston-residential-street-snow.jpg`
+- Photograph: Snow-Covered Suburban Street in Winter, by Teju.
+- Location: Boston, Massachusetts, USA, as listed on the source page.
+- Source: https://www.pexels.com/photo/snow-covered-suburban-street-in-winter-36359806/
+- License: Pexels License — https://www.pexels.com/license/
+- Attribution: Not required. Free commercial website use under the Pexels License.
+- Download URL: https://images.pexels.com/photos/36359806/pexels-photo-36359806.jpeg?auto=compress&cs=tinysrgb&w=2000
+- Downloaded: 2026-10-20
+- Illustrative regional winter photography; does not depict a completed LMX project.
+
+## Previous Worcester Common header (archived, unused)
+
 - Website file: `public/images/snow-removal/header/worcester-common-snow.jpg`
 - Photograph: Turtleboy with scarf, by MiamiManny, taken February 14, 2015.
 - Location: Burnside Fountain, Worcester City Hall and Common, Worcester, Massachusetts.

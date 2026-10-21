@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:3000. Use `PORT=3010 npm run dev` if port 3000 is occupied. `npm start` runs without file watching.
+Open http://localhost:4000. Use `PORT=3010 npm run dev` to choose a different port. `npm start` runs without file watching. Both commands default to port 4000 unless `PORT` is set.
 
 ## Pages
 
@@ -23,7 +23,7 @@ Open http://localhost:3000. Use `PORT=3010 npm run dev` if port 3000 is occupied
 - `/our-services/custom-projects` — Custom Projects
 - `/our-services/auto-detailing` — Auto Detailing
 - `/our-services/pest-rodent-control` — Pest & Rodent Control, with a matching illustration and no photo gallery
-- `/our-services/snow-removal` — Snow Removal, with a Worcester Common winter header photo and matching illustration; gallery reserved for future photos
+- `/our-services/snow-removal` — Snow Removal, with a Boston residential street winter header photo and matching illustration; gallery reserved for future photos
 - `/about-us` — About Us
 - `/client-testimonials` — Client Testimonials
 
@@ -33,13 +33,13 @@ All website photos are local under `public/images/`, organized by service and pr
 
 `public/service-photos.json` lists local service headers and 91 gallery photos: landscaping (55), demolition (12), repairs (4), custom projects (4), and auto detailing (16). Photos initially show in batches of 12 with a Show more button; the full-screen viewer includes the entire collection. Flooring has its own local copies of three tile photos from the renovation collection. Reviews and names on the testimonials page are carried over from the original site.
 
-The snow removal header shows deep snow on Worcester Common in February 2015 (CC0 public domain). The pest control header shows candid warehouse treatment (Pexels License). Both files are local and neither requires an on-page credit; source details and license links are recorded in `public/assets/photo-credits.md`. Put future snow photos in `public/images/snow-removal/gallery/` and add their `/images/snow-removal/gallery/filename.jpg` paths to the `snow-removal.photos` array in `public/service-photos.json`; the gallery renders automatically when that array contains photos.
+The snow removal header shows a quiet Boston residential street with snowbanks and snow-covered trees (Pexels License). The pest control header shows candid warehouse treatment (Pexels License). Both files are local and neither requires an on-page credit; source details and license links are recorded in `public/assets/photo-credits.md`. Put future snow photos in `public/images/snow-removal/gallery/` and add their `/images/snow-removal/gallery/filename.jpg` paths to the `snow-removal.photos` array in `public/service-photos.json`; the gallery renders automatically when that array contains photos.
 
 Photo galleries support previous/next buttons, arrow keys, Escape to close, photo counts, and links to locally stored originals. Estimate buttons lead to contact details and open email; there is no submission backend.
 
 ## Local photo archive
 
-The migration downloaded 165 source images from Webador (about 126 MiB) without resizing or recompressing them. Including the archived snow header, its replacement, the pest header, and three shared tile copies, `public/images/` contains 171 photo files (about 128 MiB). Extra source cover images referenced in service metadata were preserved too. All service headers, project covers, gallery thumbnails, gallery originals, About Us, and Testimonials photos use local paths. No runtime photo request depends on Webador.
+The migration downloaded 165 source images from Webador (about 126 MiB) without resizing or recompressing them. Including two archived snow headers, the current snow header, the pest header, and three shared tile copies, `public/images/` contains 172 photo files (about 129 MiB). Extra source cover images referenced in service metadata were preserved too. All service headers, project covers, gallery thumbnails, gallery originals, About Us, and Testimonials photos use local paths. No runtime photo request depends on Webador.
 
 `media/photo-sources.json` records the original source URL, local path, byte count, and SHA-256 checksum of each migrated image. Original filenames are retained for easy identification. The manifest is for provenance and verification; it is not loaded by the website. Keep a backup of this checkout and its images when decommissioning Webador.
 

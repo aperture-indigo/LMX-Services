@@ -31,7 +31,7 @@ nav .services-dropdown a:hover,nav .services-dropdown a[aria-current]{background
 .renovation-hero[data-splash=silver]:before{filter:grayscale(1) brightness(1.65)}
 .renovation-hero>img{width:75%;opacity:1;mask-image:linear-gradient(90deg,transparent,#0005 20%,black 48%),linear-gradient(180deg,black 72%,transparent);mask-composite:intersect}
 .renovation-hero>img[src*="pest-treatment-warehouse"]{object-position:50% 76%}
-.renovation-hero>img[src*="worcester-common-snow"]{width:55%;object-position:50% 55%}
+.renovation-hero>img[src*="boston-residential-street-snow"]{object-position:50% 68%}
 .renovation-hero:after{background:linear-gradient(90deg,#05050555,#05050560 43%,transparent 80%)}
 .landscape-overview{position:relative}
 .landscape-overview .service-overview{padding-bottom:110px}
@@ -98,7 +98,6 @@ nav .services-dropdown a:hover,nav .services-dropdown a[aria-current]{background
  .service-detail-hero{min-height:520px}
  .renovation-hero:before{opacity:.65}
  .renovation-hero>img{width:100%;opacity:.65;mask-image:linear-gradient(90deg,transparent,#0008 35%,black),linear-gradient(180deg,black 60%,transparent)}
- .renovation-hero>img[src*="worcester-common-snow"]{width:100%;object-position:50% 68%}
  .renovation-hero:after{background:linear-gradient(90deg,#05050570,#05050535)}
  .service-detail-hero h1{font-size:55px}
  .service-overview,.service-next-step,.about-story,.about-principles,.testimonial-invitation{grid-template-columns:1fr;gap:30px}

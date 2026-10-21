@@ -14,7 +14,7 @@ Website URLs start with `/images/`. Photos retain the original downloaded qualit
 - `about-us/` — the About Us photo.
 - `testimonials/` — the Testimonials photo.
 
-Snow Removal uses a CC0 Worcester Common winter photo. Pest & Rodent Control uses a candid treatment photo under the Pexels License. Source and license details are in `public/assets/photo-credits.md`; both headers are served locally.
+Snow Removal uses a Boston residential street winter photo. Pest & Rodent Control uses a candid treatment photo. Both use the Pexels License. Source and license details are in `public/assets/photo-credits.md`; both headers are served locally.
 
 Gallery lists are in `public/photos.json` and `public/service-photos.json`. New photos should be added to the appropriate folder and referenced in those lists with a local `/images/...` path.
 
